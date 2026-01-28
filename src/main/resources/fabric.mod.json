@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "morebags",
+	"version": "${}",
+	"name": "MoreBags",
+	"description": "A mod that adds more bags!",
+	"authors": [
+		"nond1e x adept!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/nond1e/MoreBags.git"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/morebags/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.example.MoreBags"
+		],
+		"client": [
+			"com.example.MoreBagsClient"
+		],
+		"fabric-datagen": [
+			"com.example.MoreBagsDataGenerator"
+		]
+	},
+	"mixins": [
+		"morebags.mixins.json",
+		{
+			"config": "morebags.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "0.141.2+1.21.11"
+	}
+}
