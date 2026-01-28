@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=south": {
+      "model": "morebags:block/alchemical_bag"
+    },
+    "facing=east": {
+      "model": "morebags:block/alchemical_bag",
+      "y": 270
+    },
+    "facing=west": {
+      "model": "morebags:block/alchemical_bag",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "morebags:block/alchemical_bag",
+      "y": 180
+    }
+  }
+}
