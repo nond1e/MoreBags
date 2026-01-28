@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "morebags",
-	"version": "${}",
+	"version": "0.0.1 alpha",
 	"name": "MoreBags",
 	"description": "A mod that adds more bags!",
 	"authors": [
