@@ -1,6 +1,6 @@
 package com.example;
 
-import com.example.items.ModItems;
+import com.example.init.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
